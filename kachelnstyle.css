@@ -1,0 +1,75 @@
+@font-face {
+	font-family:PosterBodoni BT;
+	src: url(posterbodonibt.ttf);
+}
+
+
+body {
+	background:#b1b1b1;
+}
+
+h1 {
+	font-family:PosterBodoni BT;
+	letter-spacing:10px;
+	color:#01295A;
+	display:block;
+	margin:0;
+	font-size:5em;
+}
+
+img {
+	width:100%;
+}
+
+.menuitem {
+	float:left;
+	margin:0.4166667% 0.4166667% 0 0.4166667%;
+
+}
+
+.menuitem img {
+	max-width:100%;
+}
+
+#news {
+	/*background:url(images/news.png) no-repeat;*/
+	clear:both;
+	/*padding-top:7.1161049%;*/
+}
+
+#news li{
+	list-style:none;
+	font-size:2em;
+}
+
+#schulleben {
+}
+
+#schulleben img {
+	width:100%;
+}
+
+#fachbereiche {
+}
+
+#schulprofil {
+}
+
+#personen {
+}
+
+#kontakt {
+	clear:left;
+}
+#orientierungsstufe {
+	margin-top:-8.33333334%;
+}
+
+#impressum {
+	clear:right;
+	margin-top:-0.0595238%;
+}
+
+#termine {
+	margin-top:-6.9047619%;
+}
