@@ -1,0 +1,181 @@
+@font-face {
+	font-family:PosterBodoni BT;
+	src: url(posterbodonibt.ttf);
+}
+
+/*general style for the tiles*/
+body {
+	background:#d5d5d5;
+}
+
+h1 {
+	font-family:PosterBodoni BT;
+	letter-spacing:10px;
+	color:#01295A;
+	font-size:5em;
+	margin:0;
+
+}
+
+img {
+	width:100%;
+}
+
+.menuitem {
+	max-width:100%;
+	-webkit-border-radius:5%;
+	-moz-border-radius:5%;
+	border-radius:5%;
+}
+
+.menuitem img {
+	max-width:100%;
+	-webkit-border-radius:5%;
+	-moz-border-radius:5%;
+	border-radius:5%;
+}
+
+#news {
+	background:gray;
+}
+
+#titlelink {
+	background:#01295A;
+	-webkit-border-top-left-radius:25%;
+	-webkit-border-top-right-radius:25%;
+	-moz-border-top-left-radius:50%;
+	-moz-border-top-right-radius:50%;
+	border-top-left-radius:15%;
+	border-top-right-radius:15%;
+}
+
+#newsliste {
+	list-style-type:none;
+	font-size:2em;
+}
+
+#schulleben{
+	background:#FFC029;
+}
+
+#fachbereiche {
+	background:#FF6205;
+}
+
+#schulprofil {
+	background:#01295A;
+}
+
+#personen {
+	background:#FF2C05;
+}
+
+#kontakt {
+
+}
+
+#orientierungsstufe {
+	background:#FF2C05;
+}
+
+#impressum {
+	background:#0260d2;
+}
+
+#termine {
+	background:#FFC029;
+}
+
+/* ALL FOLLOWING INTENDED FOR 1366*768 BUT INCOMPLETE
+@media screen{
+	h1 {
+		display:block;
+	}
+	
+	
+	
+	.menuitem {
+		float:left;
+		margin:0 0.830161% 3.149606% 0.830161%;
+	
+	}
+	
+	
+	#title {
+		max-width:100%;
+		max-height:11.811024%;
+	}
+	
+	#news {
+		clear:both;
+		max-width:24.450952%;
+		max-height:66.141732%;
+		/*background:#01295A;*//*
+		
+		overflow:hidden;
+	}
+
+	
+
+	#news newsliste{
+		max-height: 100%;
+	}
+	
+	#schulleben {
+		max-width:20.863836%;
+		max-height:40.787402;
+	}
+	
+
+	
+	#fachbereiche {
+		max-width:1.615402%;
+		max-height:63.937008%;
+		
+	}
+	
+	#schulprofil {
+		max-width:6.954612%;
+		max-height:63.937008%;
+		
+	}
+	
+	#personen {
+		max-width:19.765739%;
+		max-height:44.724409%;
+		
+	}
+	
+	#kontakt {
+		max-width:24.450952%;
+		max-height:13.228346%;
+		clear:left;
+	}
+	#orientierungsstufe {
+		max-width:20.863836%;
+		max-height:36.692913%;
+		
+	}
+	
+	#impressum {
+		max-width:14.330709%;
+		max-height:10.395315%;
+		clear:right;
+		
+	}
+	
+	#termine {
+		max-width:19.765739%;
+		max-height:33.070866%;
+		
+	}
+}*/
+
+/*ALL FOLLOWING INTENDED FOR SMARTPHONES BUT INCOMPLETE*/
+/*@media screen and (max-width: 720px) {*/
+
+
+	.menuitem {
+		margin:5%;
+	}
+/*}*/
