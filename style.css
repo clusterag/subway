@@ -19,7 +19,6 @@ h1 {
 	color:#01295A;
 	font-size:5em;
 	margin:0;
-
 }
 
 img {
@@ -28,30 +27,22 @@ img {
 
 .menuitem {
 	max-width:100%;
-	-webkit-border-radius:5%;
-	-moz-border-radius:5%;
 	border-radius:5%;
 }
 
 .menuitem img {
 	max-width:100%;
-	-webkit-border-radius:5%;
-	-moz-border-radius:5%;
 	border-radius:5%;
 }
 
 #news {
 	background:gray;
+	overflow:hidden;
 }
 
 #titlelink {
 	background:#01295A;
-	-webkit-border-top-left-radius:25%;
-	-webkit-border-top-right-radius:25%;
-	-moz-border-top-left-radius:50%;
-	-moz-border-top-right-radius:50%;
-	border-top-left-radius:15%;
-	border-top-right-radius:15%;
+	border-radius:5%;
 }
 
 #newsliste {
