@@ -15,11 +15,8 @@ body {
 
 h1 {
 	font-family:PosterBodoni BT;
-	letter-spacing:10px;
 	color:#01295A;
-	font-size:5em;
-	margin:0;
-
+	font-size:3em;
 }
 
 img {
@@ -172,6 +169,12 @@ img {
 
 
 	.menuitem {
-		margin:5%;
+		/*float:left;*/
+		/*max-width:40%;*/
+		/*margin:auto;*/
+	}
+
+	#news {
+		/*max-width:100%;*/
 	}
 /*}*/
