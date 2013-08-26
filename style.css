@@ -11,12 +11,12 @@ You should have received a copy of the GNU General Public License along with met
 /*general style for the tiles*/
 body {
 	background:#d5d5d5;
+	margin:0;
 }
 
 h1 {
 	font-family:PosterBodoni BT;
 	color:#01295A;
-	font-size:3em;
 }
 
 img {
@@ -26,6 +26,7 @@ img {
 .menuitem {
 	max-width:100%;
 	border-radius:5%;
+	margin:5%;
 }
 
 .menuitem img {
@@ -45,6 +46,7 @@ img {
 #newsliste {
 	list-style-type:none;
 	font-size:2em;
+	padding:0;
 }
 
 #schulleben{
@@ -164,8 +166,8 @@ img {
 	}
 }*/
 
-/*ALL FOLLOWING INTENDED FOR SMARTPHONES BUT INCOMPLETE*/
-/*@media screen and (max-width: 720px) {*/
+/*S III portrait*/
+@media screen and (max-width: 360px) {
 
 
 	.menuitem {
@@ -174,7 +176,38 @@ img {
 		/*margin:auto;*/
 	}
 
+	h1 {
+		font-size:3em;
+	}
+
 	#news {
 		/*max-width:100%;*/
+		font-size:0.5em;
 	}
-/*}*/
+}
+
+/*S III landscape*/
+@media screen and (min-width: 361px) /*and (max-width: 640px)*/ {
+	
+	.menuitem {
+		float:left;
+		width:20%;
+		margin:1%;
+	}
+
+	#title {
+		width:100%;
+	}
+
+	h1 {
+		font-size:2.5em;
+	}
+
+	#news {
+		width:50%;
+		font-size:0.5em;
+	}
+
+	#schulprofil {
+	}
+}
